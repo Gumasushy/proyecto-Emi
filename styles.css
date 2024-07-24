@@ -1,0 +1,621 @@
+*{
+    display: flexbox;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.header .logo img {
+    width: 159px;
+    height: 40px;
+    padding: 0px 2px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header .nav-links{
+    list-style: none;
+
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .btn button{
+    color: white;
+    width: 188px;
+    height: 52px;
+    top: 7px;
+    left: 1232px;
+    gap: 0px;
+    background: rgba(253, 111, 0, 1);
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0px;
+    border: none;
+}
+
+.uiyux .btn button{
+    color: white;
+    width: 188px;
+    height: 52px;
+    top: 7px;
+    left: 1232px;
+    background: rgba(253, 111, 0, 1);
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    margin-bottom: 100px;
+    margin-top: 0%;
+}
+
+.uiyux .img-1 img{
+    width: 395px;
+    height: 450px;
+    top: 131.37px;
+    left: 877.64px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+    border: 6px solid;
+    border-image-source: linear-gradient(182.68deg, rgba(255, 255, 255, 0) -0.48%, #FF8233 78.41%);
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.47) inset;
+}
+
+.uiyux{
+    display: inline-flex;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.uiyux .redes{
+    display: flexbox;
+    position: relative;
+    padding-top: 26%;
+    right: 17%;
+}
+.uiyux .redes .red{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.uiyux .text .colored{
+    color: #FF8233;
+}
+
+.uiyux .text{
+    padding-left: 200px;
+}
+
+.uiyux .text .no-color{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.uiyux .text .colored{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.uiyux .text .tit-1{
+    font-size: 100px;
+    top: 174px;
+}
+
+.uiyux .text .tit-2{
+    font-size: 100px;
+    width: 484px;
+    padding-left: 250px;
+    margin-bottom: 25px;
+}
+
+.uiyux .text .parrafo{
+    font-size: 21px;
+    width: 698px;
+    height: 101px;
+}
+
+.uiyux .rectangulo{
+    position: relative;
+    background: rgba(253, 111, 0, 0.6);
+    width: 304px;
+    height: 69px;
+    right: 31.7%;
+    margin-top: 3%;
+}
+
+
+.about-me{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 20%;
+}
+
+.about-me .text .title{
+    font-size: 65px;
+    margin-top: -30%;
+}
+
+.about-me .img-2 img{
+    position: relative;
+    right: 200px;
+    margin-left: 40%;
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+    border: 6px solid;
+    border-image-source: linear-gradient(182.68deg, rgba(255, 255, 255, 0) -0.48%, #FF8233 78.41%);
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.47) inset;
+    }
+
+.about-me .text .p{
+    font-size: 21px;
+    width: 698px;
+    height: 101px;
+    margin-bottom: 10%;
+}
+
+.about-me .barras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    padding-top: 5%;
+    right: 46%;
+}
+
+.about-me .barras .ux{
+    width: 650px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.about-me .barras .web{
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+
+.about-me .barras .app{
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+
+.about-me .barras .graph{
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+
+
+
+.about-me .barras .slider{
+    appearance: none;
+    height: 7px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #FF8233 0%, #fff 150%);
+}
+
+.about-me .barras .slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #FF8233;
+}
+
+.services .container .carta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    }
+
+.services .title{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.services .container .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.services .container .carta .subt{
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 5%;
+
+}
+
+.services .container .carta img{
+    padding-left: 5%;
+    padding-top: 10%;
+    margin-bottom: -15%;
+    border-top: 15%;
+}
+
+.services .container .carta .uiux{
+    background: rgba(248, 248, 248, 1);
+    width: 15%;
+    padding-left: 1%;
+    padding-bottom: 2%; 
+}
+
+.services .container .carta .web{
+    background: rgba(248, 248, 248, 1);
+    width: 15%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+.services .container .carta .app{
+    background: rgba(248, 248, 248, 1);
+    width: 15%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+.services .container .carta .graph{
+    background: rgba(248, 248, 248, 1);
+    width: 15%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+.proyects .container .title{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.proyects .container .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.proyects .container .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27%;
+    margin-right: 30%;
+    padding-bottom: 5%;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.proyects .container .buttons .btn button{
+    color: black;
+    width: 150%;
+    height: 46px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.proyects .container .buttons .btn-web button{
+    color: white;
+    width: 150px;
+    height: 46px;
+    top: 7px;
+    margin-left: 10%;
+    background: rgba(253, 111, 0, 1);
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+}
+
+.proyects .container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: normal;
+    padding-bottom: 5%;
+    margin-right: 10%;
+}
+
+.proyects .container-2 .rectangle-1 img{
+    width: 274px;
+    height: 405px;
+    top: 120px;
+    left: 150px;
+    background: rgba(255, 235, 219, 1);
+    margin-bottom: 20%;
+}
+
+.proyects .container-2 .rectangle-1 .img-1{
+    position: relative;
+}
+
+.proyects .container-2 .rectangle-2 img{
+    width: 274px;
+    height: 405px;
+    top: 120px;
+    left: 150px;
+    background: rgba(255, 235, 219, 1);
+    margin-bottom: 20%;
+}
+
+.proyects .container-2 .rectangle-2 .img-1{
+    position: relative;
+}
+
+.proyects .container-2 .rectangle-3 img{
+    width: 274px;
+    height: 405px;
+    top: 120px;
+    left: 150px;
+    background: rgba(255, 235, 219, 1);
+    margin-bottom: 20%;
+}
+
+.proyects .container-2 .rectangle-3 .img-1{
+    position: relative;
+}
+
+
+.proyects .container-2 .rectangle-1 h4{
+    color: #FF8233;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-top: 5%;
+    margin-left: 30%;
+}
+
+.proyects .container-2 .rectangle-2 h4{
+    color: #FF8233;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28.5px;    
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-top: 5%;
+    margin-left: 27%;
+}
+
+.proyects .container-2 .rectangle-3 h4{
+    color: #FF8233;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-top: 5%;
+    margin-left: 32%;
+}
+
+.proyects .container-2 .rectangle-1 p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 30%;
+}
+
+.proyects .container-2 .rectangle-2 p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 27%;
+}
+
+.proyects .container-2 .rectangle-3 p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 32%;
+}
+
+.testimonials .container .title{
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 97.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.testimonials .container .text{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.testimonials .container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+.testimonials .container-2 .rectangle-1{
+    position: relative;
+    background: rgba(217, 217, 217, 1);
+    width: 57px;
+    height: 16px;
+    right: 3%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.testimonials .container-2 .rectangle-2{
+    position: relative;
+    background: #FF8233;
+    width: 57px;
+    height: 16px;
+    right: 2%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.testimonials .container-2 .rectangle-3{
+    position: relative;
+    background: rgba(217, 217, 217, 1);
+    width: 57px;
+    height: 16px;
+    right: 1%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.testimonials .container-2 .rectangle-4{
+    position: relative;
+    background: rgba(217, 217, 217, 1);
+    width: 57px;
+    height: 16px;
+    right: 0%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.design .container .title{
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 97.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.design .container .text{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.design .container .btn{
+    position: relative;
+    color: white;
+    width: 228px;
+    height: 52px;
+    left: 32%;
+    background: rgba(253, 111, 0, 1);
+    border-radius: 14px 14px 14px 14px;
+    border: none;
+}
+
+.design .container .email{
+    position: relative;
+    width: 447px;
+    height: 55px;
+    left: 32%;
+    margin-right: 1%;
+    border-radius: 14px 14px 14px 14px;
+    padding-left: 1%;
+    border: 1px solid rgba(175, 175, 175, 1);
+    background-color: rgba(248, 248, 248, 1);
+    margin-bottom: 5%;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    padding-top: 3%;
+    bottom: 0;
+    left: 0;
+    background: rgba(248, 248, 248, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    list-style: none;
+}
+
+.footer .menu-container li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.footer .redes{
+    margin-bottom: 1%;
+}
+
+.footer .redes .red{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer .copy{
+    background: rgba(84, 84, 84, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    padding-top: 1%;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.footer .copy .colored{
+    color: #FF8233;
+    padding-left: 5px;
+}
+
+.footer .copy .text{
+    padding-left: 5px;
+}
